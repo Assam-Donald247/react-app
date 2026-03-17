@@ -1,0 +1,26 @@
+.cont-Button {
+  display: flex;
+  width: 350px;
+  padding: 12px var(--spacing-8, 32px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-2, 8px);
+  border: 0;
+  border-radius: var(--border-radius-rounded-md, 8px);
+  background: var(--base-secondary, #d8ff83);
+
+  /* shadow/xs */
+  box-shadow: var(--shadow-xs-offset-x, 0) var(--shadow-xs-offset-y, 1px)
+    var(--shadow-xs-blur-radius, 2px) var(--shadow-xs-spread-radius, 0)
+    var(--shadow-xs-color, rgba(0, 0, 0, 0.05));
+
+  color: var(--base-primary-foreground, #171717);
+
+  /* text-sm/leading-normal/medium */
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: var(--text-sm-line-height, 20px); /* 142.857% */
+  text-decoration: none;
+}

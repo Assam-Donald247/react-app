@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css2);
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  padding-bottom: 30px;
+}
+
+.head > h2 {
+  /* color: #FFF; */
+  font-family: "Akira Expanded";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: var(--font-weight-semibold, 800);
+  line-height: 100%; /* 20px */
+  letter-spacing: -0.2px;
+  color: #fff;
+}
+
+.head > p {
+  color: var(--base-muted-foreground, #a9aaa9);
+
+  /* text-sm/leading-normal/normal */
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-normal, 400);
+  /* line-height: var(--text-sm-line-height, 20px); 142.857% */
+}
+
+.head .body {
+  width: 350px;
+  /* display: flex; */
+  padding: 8px 8px 8px 8px;
+  /* align-items: flex-start; */
+  /* gap: 4px; */
+  align-self: flex-start;
+  border-radius: 6px;
+  border: 1px solid #adcc69;
+  background: #d8ff83;
+  align-items: center;
+  justify-content: center;
+}
+
+.head .body > p {
+  align-self: stretch;
+  color: #1a1a1a;
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  /* line-height: var(--text-sm-line-height, 20px); 166.667% */
+
+}
+
+.head .body > span {
+  align-self: stretch;
+  color: #1a1a1a;
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  /* line-height: var(--text-sm-line-height, 20px); 166.667% */
+}
