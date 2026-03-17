@@ -22,13 +22,11 @@
 
 .head > p {
   color: var(--base-muted-foreground, #a9aaa9);
-
-  /* text-sm/leading-normal/normal */
   font-family: var(--font-font-sans, "IBM Plex Sans");
   font-size: var(--text-sm-font-size, 14px);
   font-style: normal;
   font-weight: var(--font-weight-normal, 400);
-  /* line-height: var(--text-sm-line-height, 20px); 142.857% */
+  line-height: var(--text-sm-line-height, 20px); 
 }
 
 .head .body {
@@ -52,16 +50,21 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
-  /* line-height: var(--text-sm-line-height, 20px); 166.667% */
-
+  padding-left: 30px;
+  padding-top: 10px;
 }
 
-.head .body > span {
-  align-self: stretch;
-  color: #1a1a1a;
+.head .button-color {
+  color: var(--base-secondary, #d8ff83);
   font-family: var(--font-font-sans, "IBM Plex Sans");
-  font-size: 12px;
+  font-size: var(--text-sm-font-size, 14px);
   font-style: normal;
   font-weight: 500;
-  /* line-height: var(--text-sm-line-height, 20px); 166.667% */
+  line-height: var(--text-sm-line-height, 20px);
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
 }

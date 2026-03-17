@@ -1,16 +1,33 @@
-.confirm-age {
-    display: flex;
-    padding: 12px 0;
-    align-items: flex-start;
-    gap: 6px;
-    align-self: stretch;
-}
+/* .confirm-age {
+  display: flex;
+  padding: 12px 0;
+  align-items: flex-start;
+  gap: 6px;
+  align-self: stretch;
+  
+} */
 
 .confirm-age .label-text {
-    color: #8B8B8B;
-    font-family: var(--font-font-sans, "IBM Plex Sans");
-    font-size: var(--text-xs-font-size, 12px);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 100%; 
+  color: #8b8b8b;
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-xs-font-size, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  padding-bottom: 20px;
+}
+
+.confirm-age .label-text > a {
+  color: var(--base-secondary, #d8ff83);
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: var(--text-sm-line-height, 20px);
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
 }

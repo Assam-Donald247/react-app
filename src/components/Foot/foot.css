@@ -1,0 +1,35 @@
+.footer-text {
+    padding-bottom: 30px;
+}
+
+
+.footer-text > p {
+  align-self: stretch;
+  color: #8b8b8b;
+  text-align: center;
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  padding-top: 30px;
+}
+
+.footer-text .link-text > a {
+  color: var(--base-secondary, #d8ff83);
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: var(--text-sm-line-height, 20px);
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.footer-text .link-text {
+  text-align: center;
+}

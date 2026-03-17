@@ -23,4 +23,10 @@
   font-weight: var(--font-weight-medium, 500);
   line-height: var(--text-sm-line-height, 20px); /* 142.857% */
   text-decoration: none;
+
 }
+
+.reg-Button {
+  
+}
+
