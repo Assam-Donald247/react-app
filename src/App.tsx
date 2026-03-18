@@ -1,32 +1,16 @@
 import "./App.css";
-import Head from "./components/Header/Header";
-import Continue from "./components/RegisterB/Register";
-import AgeConfirm from "./components/AgeConfirm/AgeConfirm";
-import Footer from "./components/Foot/Footer";
+import Head from "./components/Authwrapper/Header/Header";
+import Continue from "./components/Authwrapper/RegisterB/Register";
+import AgeConfirm from "./components/Authwrapper/AgeConfirm/AgeConfirm";
+import Footer from "./components/Authwrapper/Foot/Footer";
 import Authwrapper from "./components/Authwrapper/Authwrapper";
-import InputField from "./components/Input Field/InputField";
+import InputField from "./components/Authwrapper/Input Field/InputField";
 
 function App() {
   return (
-    <Authwrapper>
-      <div className="Signup">
-        <div>
-          <Head />
-        </div>
-        <div>
-          <InputField />
-        </div>
-        <div className="Age">
-          <AgeConfirm />
-        </div>
-        <div className="Button">
-          <Continue title="Continue" />
-        </div>
-        <div>
-          <Footer />
-        </div>
-      </div>
-    </Authwrapper>
+    <div className="page">
+      <Authwrapper />
+    </div>
   );
 }
 

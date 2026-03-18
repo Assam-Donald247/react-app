@@ -1,12 +1,9 @@
-/* .Signup {
+.page {
     align-items: center;
+    align-self: center;
     justify-content: center;
-} */
+}
 
-
-
-
-
-
-
-
+body {
+    background-color: black;
+}
