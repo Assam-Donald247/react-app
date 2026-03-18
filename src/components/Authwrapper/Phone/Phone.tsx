@@ -4,9 +4,7 @@ function PhoneNumber() {
   return (
     <div className="telePhone">
       <p>Phone Number</p>
-      <label>
         <input className="tele" placeholder="e.g 0910000000" />
-      </label>
       <p>
         Please enter a valid number that can be recieve the OTP required to
         verify your account.
