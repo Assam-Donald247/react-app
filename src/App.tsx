@@ -3,9 +3,9 @@ import Authwrapper from "./components/Authwrapper/Authwrapper";
 
 function App() {
   return (
-    <div className="page">
-      <Authwrapper />
-    </div>
+      <div className="page">
+        <Authwrapper />
+      </div>
   );
 }
 

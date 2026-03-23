@@ -8,7 +8,6 @@ import InputField from "./Input Field/InputField";
 function Authwrapper ()  {
   return (
     <div className="wrapper">
-      {/* <body>{children}</body> */}
       <Head />
       <InputField />
       <AgeConfirm />
