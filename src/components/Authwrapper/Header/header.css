@@ -9,7 +9,7 @@
 
 .head > h2 {
   color: var(--base-foreground, #fff);
-  font-family: 'akira';
+  font-family: "akira";
   font-size: 20px;
   font-style: normal;
   font-weight: var(--font-weight-semibold, 800);
@@ -19,7 +19,7 @@
 
 .head > p {
   color: var(--base-muted-foreground, #a9aaa9);
-  font-family: 'ibm';
+  font-family: "ibm";
   font-size: var(--text-sm-font-size, 14px);
   font-style: normal;
   font-weight: var(--font-weight-normal, 400);
@@ -33,28 +33,26 @@
   align-items: flex-start;
   gap: 4px;
   align-self: flex-start;
-  border-radius: 6px;
+  border-radius: 10px;
   border: 1px solid #adcc69;
   background: #d8ff83;
   align-items: center;
   justify-content: center;
-  
 }
 
 .head .main-text > p {
-  align-self: stretch;
+  /* align-self: stretch; */
   color: #1a1a1a;
-  font-family: 'ibm';
+  font-family: "ibm";
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
-  padding-left: 30px;
-  /* padding-top: 1px; */
+  padding-top: 5px;
 }
 
 .head .button-color {
   color: var(--base-secondary, #d8ff83);
-  font-family: 'ibm';
+  font-family: "ibm";
   font-size: var(--text-sm-font-size, 14px);
   font-style: normal;
   font-weight: 500;
@@ -64,9 +62,18 @@
   text-decoration-skip-ink: none;
   text-decoration-thickness: auto;
   text-underline-offset: auto;
-  text-underline-position: from-font;
 }
 
 .head .closeBtn {
   padding-bottom: 10px;
+}
+
+.head .main-text > img {
+  /* width: 36.856px; */
+  height: 36.856px;
+  transform: rotate(-7.999deg);
+  /* aspect-ratio: 1/1; */
+  position: relative;
+  left: -12.243px;
+  top: -26.244px;
 }

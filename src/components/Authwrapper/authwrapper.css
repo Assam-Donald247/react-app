@@ -15,8 +15,8 @@
 
 
 .wrapper .backGround {
-  background-color: rgba(0, 0, 0, 0.23);
-  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(1px);
   padding: 32px 20px 32px 20px;
   border-radius: 32px 32px 32px 32px;
 }

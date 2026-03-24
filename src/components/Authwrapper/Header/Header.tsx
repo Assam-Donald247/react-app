@@ -1,5 +1,6 @@
 import "./header.css";
 import ArrowLeft from "./../ArrowLeft.svg"
+import ribbon from "./../ribbon.png"
 
 
 function Head() {
@@ -13,6 +14,7 @@ function Head() {
         Already have an account? <a href="#" className="button-color">Log in</a>
       </p>
       <div className="main-text">
+        <img src={ribbon}/>
         <p>
           100% DEPOSIT MATCH BONUS UP TO ₦100,000* <br />
           *New Customers only. Terms apply. Bet responsibly. 18+
