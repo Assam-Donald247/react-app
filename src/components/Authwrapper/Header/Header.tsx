@@ -8,7 +8,7 @@ function Head() {
       <a href="" className="closeBtn" >
         <img src={ArrowLeft} alt="Arrow" />
       </a>
-      <h2 className="font-akira">CREATE YOUR ACCOUNT</h2>
+      <h2>CREATE YOUR ACCOUNT</h2>
       <p>
         Already have an account? <a href="#" className="button-color">Log in</a>
       </p>

@@ -17,7 +17,7 @@
   /* color: var(--base-primary-foreground, #171717); */
 
   /* text-sm/leading-normal/medium */
-  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-family: 'ibm';
   font-size: var(--text-sm-font-size, 14px);
   font-style: normal;
   font-weight: var(--font-weight-medium, 500);

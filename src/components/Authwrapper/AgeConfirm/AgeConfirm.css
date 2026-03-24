@@ -1,6 +1,6 @@
 .confirm-age .label-text {
   color: #8b8b8b;
-  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-family: 'ibm';
   font-size: var(--text-xs-font-size, 12px);
   font-style: normal;
   font-weight: 400;
@@ -10,7 +10,7 @@
 
 .confirm-age .label-text > a {
   color: var(--base-secondary, #d8ff83);
-  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-family: 'ibm';
   font-size: var(--text-sm-font-size, 14px);
   font-style: normal;
   font-weight: 500;

@@ -9,7 +9,7 @@
 
 .head > h2 {
   color: var(--base-foreground, #fff);
-  font-family: "Akira Expanded", sans-serif;
+  font-family: 'akira';
   font-size: 20px;
   font-style: normal;
   font-weight: var(--font-weight-semibold, 800);
@@ -19,7 +19,7 @@
 
 .head > p {
   color: var(--base-muted-foreground, #a9aaa9);
-  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-family: 'ibm';
   font-size: var(--text-sm-font-size, 14px);
   font-style: normal;
   font-weight: var(--font-weight-normal, 400);
@@ -28,22 +28,23 @@
 
 .head .main-text {
   width: 350px;
-  /* display: flex; */
-  padding: 8px 8px 0 0;
-  /* align-items: flex-start; */
-  /* gap: 4px; */
+  display: flex;
+  padding: 8px 8px 8px 10px;
+  align-items: flex-start;
+  gap: 4px;
   align-self: flex-start;
-  border-radius: 20px;
+  border-radius: 6px;
   border: 1px solid #adcc69;
   background: #d8ff83;
   align-items: center;
   justify-content: center;
+  
 }
 
 .head .main-text > p {
   align-self: stretch;
   color: #1a1a1a;
-  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-family: 'ibm';
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -53,7 +54,7 @@
 
 .head .button-color {
   color: var(--base-secondary, #d8ff83);
-  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-family: 'ibm';
   font-size: var(--text-sm-font-size, 14px);
   font-style: normal;
   font-weight: 500;

@@ -5,17 +5,18 @@ import AgeConfirm from "./AgeConfirm/AgeConfirm";
 import Footer from "./Foot/Footer";
 import InputField from "./Input Field/InputField";
 
-
-function Authwrapper ()  {
+function Authwrapper() {
   return (
     <div className="wrapper">
-      <Head />
-      <InputField />
-      <AgeConfirm />
-      <Continue />
-      <Footer />
+      <div className="backGround">
+        <Head />
+        <InputField />
+        <AgeConfirm />
+        <Continue />
+        <Footer />
+      </div>
     </div>
   );
-};
+}
 
 export default Authwrapper;

@@ -1,6 +1,11 @@
 @font-face {
   font-family: "akira";
-  src: url();
+  src: url('./fonts/Akira\ Expanded\ Demo.otf');
+}
+
+@font-face {
+  font-family: 'ibm';
+  src: url('./fonts/IBMPlexSans-VariableFont_wdth\,wght.ttf');
 }
 
 /* overlay */

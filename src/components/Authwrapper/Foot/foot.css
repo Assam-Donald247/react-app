@@ -6,7 +6,7 @@
   align-self: stretch;
   color: #8b8b8b;
   text-align: center;
-  font-family: "IBM Plex Sans";
+  font-family: "ibm";
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -16,7 +16,7 @@
 
 .footer-text .link-text > a {
   color: var(--base-primary, #e5e5e5);
-  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-family: "ibm";
   font-size: 12px;
   font-style: normal;
   font-weight: var(--font-weight-medium, 500);
@@ -26,9 +26,14 @@
   text-decoration-skip-ink: none;
   text-decoration-thickness: auto;
   text-underline-offset: auto;
-  text-underline-position: from-font;
 }
 
 .footer-text .link-text {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+  /* align-content: flex-start; */
+  /* align-self: stretch; */
+  /* flex-wrap: wrap; */
   text-align: center;
 }
