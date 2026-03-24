@@ -1,9 +1,9 @@
 import "./register.css"
 
-function Continue ({ title }: { title: string }) {
+function Continue () {
     return (
         <div className="reg-Button">
-            <a href = '#'><button className="cont-Button">{title}</button></a>
+            <a href = '#'><button className="cont-Button">Continue</button></a>
         </div>
     );
 }

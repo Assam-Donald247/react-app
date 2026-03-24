@@ -1,14 +1,8 @@
-@import url(https://fonts.googleapis.com/css2);
-@font-face {
-  font-family: "myFont";
-  src: url("");
-}
-
 .head {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 12px;
+  /* gap: 12px; */
   align-self: stretch;
   padding-bottom: 20px;
 }
@@ -19,7 +13,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: var(--font-weight-semibold, 800);
-  line-height: 100%; 
+  line-height: 100%;
   letter-spacing: -0.2px;
 }
 
@@ -70,4 +64,8 @@
   text-decoration-thickness: auto;
   text-underline-offset: auto;
   text-underline-position: from-font;
+}
+
+.head .closeBtn {
+  padding-bottom: 10px;
 }

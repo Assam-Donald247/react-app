@@ -17,7 +17,7 @@
     var(--shadow-xs-color, rgba(10, 18, 2, 0.05));
 }
 
-.user-name > P {
+.user-name > label {
   color: var(--base-foreground, #fff);
 
   /* text-sm/leading-none/normal */
@@ -30,5 +30,6 @@
 }
 
 .user-name {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
+

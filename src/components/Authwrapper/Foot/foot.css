@@ -1,7 +1,6 @@
 .footer-text {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
-
 
 .footer-text > p {
   align-self: stretch;
@@ -16,12 +15,12 @@
 }
 
 .footer-text .link-text > a {
-  color: var(--base-secondary, #d8ff83);
+  color: var(--base-primary, #e5e5e5);
   font-family: var(--font-font-sans, "IBM Plex Sans");
-  font-size: var(--text-sm-font-size, 14px);
+  font-size: 12px;
   font-style: normal;
-  font-weight: 500;
-  line-height: var(--text-sm-line-height, 20px);
+  font-weight: var(--font-weight-medium, 500);
+  line-height: 18px; /* 150% */
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-skip-ink: none;

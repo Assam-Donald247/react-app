@@ -1,10 +1,10 @@
-import './Username.css'
+import "./Username.css";
 
 function UserName() {
   return (
-    <div className ='user-name'>
-      <p>Username</p>
+    <div className="user-name">
       <label>
+        Username
         <input className="user" placeholder="e.g ABMax" />
       </label>
     </div>
