@@ -1,23 +1,26 @@
 @import url(https://fonts.googleapis.com/css2);
+@font-face {
+  font-family: "myFont";
+  src: url("");
+}
 
 .head {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* gap: 12px; */
+  gap: 12px;
   align-self: stretch;
   padding-bottom: 20px;
 }
 
 .head > h2 {
-  /* color: #FFF; */
-  font-family: "Akira Expanded";
+  color: var(--base-foreground, #fff);
+  font-family: "Akira Expanded", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: var(--font-weight-semibold, 800);
-  line-height: 100%; /* 20px */
+  line-height: 100%; 
   letter-spacing: -0.2px;
-  color: #fff;
 }
 
 .head > p {
@@ -26,10 +29,10 @@
   font-size: var(--text-sm-font-size, 14px);
   font-style: normal;
   font-weight: var(--font-weight-normal, 400);
-  line-height: var(--text-sm-line-height, 20px); 
+  line-height: var(--text-sm-line-height, 20px);
 }
 
-.head .body {
+.head .main-text {
   width: 350px;
   /* display: flex; */
   padding: 8px 8px 0 0;
@@ -43,7 +46,7 @@
   justify-content: center;
 }
 
-.head .body > p {
+.head .main-text > p {
   align-self: stretch;
   color: #1a1a1a;
   font-family: var(--font-font-sans, "IBM Plex Sans");

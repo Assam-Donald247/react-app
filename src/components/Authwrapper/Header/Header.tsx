@@ -1,5 +1,6 @@
 import "./header.css";
 
+
 function Head() {
   return (
     <div className="head">
@@ -7,7 +8,7 @@ function Head() {
       <p>
         Already have an account? <a href="#" className="button-color">Log in</a>
       </p>
-      <div className="body">
+      <div className="main-text">
         <p>
           100% DEPOSIT MATCH BONUS UP TO ₦100,000* <br />
           *New Customers only. Terms apply. Bet responsibly. 18+

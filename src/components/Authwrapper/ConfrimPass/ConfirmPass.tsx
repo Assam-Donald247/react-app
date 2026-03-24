@@ -5,7 +5,7 @@ function ConfirmPass() {
     <div className='confirmPass'>
       <p>Confirm Password</p>
       <label>
-        <input className="confirm-pass" placeholder="Confirm Password" />
+        <input type= 'password' className="confirm-pass" placeholder="Confirm Password" />
       </label>
     </div>
   );

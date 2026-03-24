@@ -8,6 +8,7 @@
     border-radius: var(--border-radius-rounded-md, 8px);
     border: var(--border-width-border, 1px) solid var(--base-input, rgba(255, 255, 255, 0.15));
     background: #161616;
+    color: #fff;
 
     /* shadow/xs */
     box-shadow: var(--shadow-xs-offset-x, 0) var(--shadow-xs-offset-y, 1px) var(--shadow-xs-blur-radius, 2px) var(--shadow-xs-spread-radius, 0) var(--shadow-xs-color, rgba(10, 18, 2, 0.05));
