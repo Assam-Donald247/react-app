@@ -1,12 +1,3 @@
-/* .confirm-age {
-  display: flex;
-  padding: 12px 0;
-  align-items: flex-start;
-  gap: 6px;
-  align-self: stretch;
-  
-} */
-
 .confirm-age .label-text {
   color: #8b8b8b;
   font-family: var(--font-font-sans, "IBM Plex Sans");
@@ -29,5 +20,6 @@
   text-decoration-skip-ink: none;
   text-decoration-thickness: auto;
   text-underline-offset: auto;
-  text-underline-position: from-font;
+  /* text-underline-position: from-font; */
+  line-height: 17px;
 }
